@@ -3,20 +3,14 @@
     "name":"John Cook",
     "description":"I'm a Full Stack engineer specializing in AWS and DevOps Architecture. I excel at developing and improving cloud solutions and cloud native migration",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I'm an AWS Certified Solutions Architect Professional specializing in serverless, microservices, containerization and cloud native solutions. I help customers migrate solutions into AWS and containerized or serverless microservice applications. Specializing in AWS cloud native, my serverless preference for functions is Lambda, however, I'm sensitive to the desire of clients to remain cloud agnostic. That being said, I leverage cloud agnostic and cloud native tooling such as the Serverless Framework, Terraform, and Kubernetes whenever possible. ",
+    "bio2": "Serverless is the next evolution of software and presents organizations with many cost saving and rapid development opportunities.  I have a high speed, low drag philosophy and am passionate about implementing high quality solutions that adhere to the latest cloud architecture best practices.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "hireme@efficientit.io",
-    "phone": "555-555-5555",
     "github":"https://github.com/jcook05",
     "project":"https://github.com/jcook05",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
-    },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://johnbcook.info",
+    "resumedownload":"./John_Cook.pdf",
     "social":[
       {
         "name":"facebook",

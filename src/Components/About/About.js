@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './About.css';
 
 class About extends Component {
   render() {
@@ -7,11 +8,7 @@ class About extends Component {
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
+      var bio2 = this.props.data.bio2;
       var email = this.props.data.email;
       var resumeDownload = this.props.data.resumedownload;
     }
@@ -20,22 +17,20 @@ class About extends Component {
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Nordic Giant Profile Pic" />
+            <img className="profile-pic"  src={profilepic} alt="JBC Profile Pic" />
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p>{bio}</p>
+            <p className="biotext">{bio}</p>
+            <br></br>
+            <p className="biotext">{bio2}</p>
+            <br></br>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
-                  <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                  <p>
+                     <span className="biotext">{email}</span>
 					   </p>
                </div>
                <div className="columns download">
