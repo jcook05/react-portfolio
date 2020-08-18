@@ -1,3 +1,4 @@
+
 {
   "main": {
     "name":"John Cook",
@@ -11,6 +12,10 @@
     "project":"https://github.com/jcook05",
     "website": "http://johnbcook.info",
     "resumedownload":"./John_Cook.pdf",
+    "sap": "images/sap.jpg",
+    "saa": "images/saa.jpg",
+    "csa": "images/csa.jpg",
+    "dva": "images/dva.jpg",
     "social":[
       {
         "name":"facebook",

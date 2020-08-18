@@ -1,0 +1,30 @@
+ 
+ .certlist {
+    padding-bottom: 5px;
+ }
+ 
+ #certlist li { 
+    list-style-type: none;
+    margin-left: 25px;
+    line-height: 0.75em;
+    padding-bottom: 5px;
+    margin: 0 0 15px 0;
+  }
+  
+  #certlist a 
+    { 
+    display: inline-block;      
+    height:20px;
+    }
+  
+  #certlist img:hover {  border:2px solid rgb(55, 0, 255); 
+        box-shadow: 0 0 10px #333; 
+       -webkit-box-shadow: 0 0 10px #333;  
+       -moz-box-shadow: 0 0 10px #333;  
+       -o-box-shadow: 0 0 10px #333;  
+       -ms-box-shadow: 0 0 10px #333;
+   }
+
+   .imageresize {
+    max-height:105%;
+  }
