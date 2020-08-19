@@ -1,0 +1,181 @@
+
+  /*
+  COLORS
+
+  Sky
+    rgb(52, 152, 219)
+
+  Dark Blue
+    rgb(44, 62, 80)
+
+  Grey
+    rgb(127, 140, 141)
+
+  Cloud
+    rgb(236, 240, 241)
+*/
+
+
+.background--lightGrey {
+  background-color: rgb(211,211,211);
+}
+
+.background--skyBlue {
+  background-color: rgb(52, 152, 219);
+  }
+
+.color--skyBlue {
+  color: rgb(52, 152, 219);
+}
+
+.color--cloud {
+  color: rgb(236, 240, 241);
+}
+
+.color--grey {
+  color: rgb(127, 140, 141);
+}
+
+.color--darkgrey {
+  color: rgb(44, 62, 80);
+}
+
+.color--black {
+  color: rgb(0,0,0);
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Cardo', serif;
+  margin: 0;
+}
+
+.overflow--auto {
+  overflow: auto;
+}
+
+.overflow--hidden {
+  overflow-x: hidden;
+}
+
+P.blocktext {
+    
+  margin: auto;
+  width: 70%;
+  align-items: center;
+  text-align: left;
+  
+}
+
+#Library {
+  height: 17px;
+  width: 259px;
+}
+
+#Library:hover {
+  content: url('https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2017-09-29&ci=AWS00330518');
+  height: 17px;
+  width: 259px;
+}
+
+.section {
+
+  font-size: 4.2rem;
+  min-height: 6vh;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 1rem; 
+  width: 100%;
+}
+
+.codesection {
+  font-size: 4.2rem;
+  width: 100vw;
+  min-height: 25vh;
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+} 
+
+.section__heading--largest {
+  float: left;
+  font-size: 5rem;
+  margin-left: 2rem;
+}
+
+.section__example {
+  background-color: rgb(44, 62, 80);
+}
+
+.section__text--centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section--alignCentered{
+  text-align: center;
+}
+
+.section--description {
+  font-size: 2.8rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+
+img, ul{
+  padding:0; 
+  margin:0;
+}
+
+
+/* Example Section */
+
+
+.section__exampleWrapper,
+.section__example {
+  display: inline-block;
+  height: 25rem;
+  width: 25rem;
+}
+
+.section__exampleWrapper {
+  padding-top: 10rem;
+  margin-right: 4rem;
+}
+
+.section__example {
+
+  padding-top: 10rem;
+  border-radius: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.section__example:active {
+  transition: 0.05s all;
+  width: 34rem;
+  height: 34rem;
+}
+
+.section__exampleTitle{
+  font-size: 3.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+.section__example img {
+  opacity: 0.25;
+  width: 400%;
+  margin-left: -50%;
+  margin-top: -25%;
+  resize: "contain";
+}

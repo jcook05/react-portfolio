@@ -1,0 +1,56 @@
+
+.CodeSample section {
+
+    font-size: 2.2rem;
+    min-height: 6vh;
+    position: relative;
+    padding-top: 10rem;
+    padding-bottom: 1rem; 
+    width: 100%;
+    text-align: left;
+    
+  }
+  
+  .CodeSample p {
+    width: 80%;
+    text-align: left;
+    align-items: center;
+  }
+  
+  .section__text--centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .section--alignCentered{
+    text-align: center;
+  }
+  
+  .section--description {
+    font-size: 2.8rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .CodeSample pre {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+    background: #efefef;
+    border: 1px solid #777;
+   
+  }
+  .CodeSample pre code {
+    padding: 10px;
+    color: #333;
+  }
+
+  .precustom {
+
+      color: "white";
+
+  }

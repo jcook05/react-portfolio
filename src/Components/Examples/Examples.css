@@ -1,0 +1,40 @@
+
+.Examples section {
+
+  font-size: 2.2rem;
+  min-height: 6vh;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding-left: 5%;
+  
+}
+
+.Examples p {
+
+  font-size: 2.5rem;
+  width: 100%;
+  align-items: center;
+  text-align: left;
+  padding-top: 5rem;
+  padding-left: 5rem;
+
+}
+
+.jumbo {
+
+  padding-top: 10rem;
+
+}
+
+.header {
+
+  text-align: left;
+  font-size: 2.5rem;
+  padding-left: 5%;
+
+
+}
