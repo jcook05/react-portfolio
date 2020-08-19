@@ -30,7 +30,7 @@ selectWork = (evt, example) => {
 
           <div id="portfolio">
             <h1>Work Examples</h1>
-            <div className="row">
+            <div className="row offset-3">
           
               <div className="twelve columns centered">
               
