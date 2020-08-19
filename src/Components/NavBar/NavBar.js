@@ -16,7 +16,7 @@ console.log('Rendering Navbar');
 // make this dynamic and reusable component
 return( 
 <div>
-  <Navbar bg="dark" variant="dark" fixed="top">
+  <Navbar bg="blue" variant="dark" fixed="top">
     <Navbar.Brand style={{fontSize: 30}} href="/">John Cook</Navbar.Brand>
     <Nav style={{fontSize: 25}} className="mr-auto">
       <Nav.Link href="/portfolio">Portfolio</Nav.Link>

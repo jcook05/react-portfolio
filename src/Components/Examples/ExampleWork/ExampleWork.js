@@ -43,7 +43,7 @@ class ExampleWorkModal extends React.Component {
                   </p>
                 <br></br>  
                   <p>
-                    <Button onClick={this.handleGithub} currentvariant="primary" size='lg'>Git Hub</Button>
+                    <a onClick={this.handleGithub} className="button btn github-btn"><i className="fa fa-github"></i> Github</a>
                   </p>
               </div>
             </section>

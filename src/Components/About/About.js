@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import './About.css';
 
 class About extends Component {
+
+
+   handleResume = () => {
+      let resumeDownload = this.props.data.resumedownload;
+      window.open(resumeDownload, "_blank")
+    }
+
   render() {
 
     if(this.props.data){
@@ -35,7 +42,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a onClick={this.handleResume} className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>

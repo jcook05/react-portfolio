@@ -42,7 +42,7 @@ class CodeSample extends React.Component {
           <Accordion defaultActiveKey="1">
             <Card>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="primary" size='lg'eventKey="0">
+                <Accordion.Toggle as={Button} variant="secondary" size='lg'eventKey="0">
                  Code Examples
                 </Accordion.Toggle>
               </Card.Header>

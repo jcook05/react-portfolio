@@ -4,6 +4,13 @@ import Certs from '../Certs/Certs';
 import './Home.css';
 
 class Home extends Component {
+
+  handleGithub = () => {
+    let github = this.props.data.github;
+    window.open(github, "_blank")
+  }
+
+
   render() {
 
     if(this.props.data){
@@ -27,7 +34,7 @@ class Home extends Component {
             <hr />
             <ul className="social inline">
                <li><a><Certs className="button btn project-btn" data={this.props.data}></Certs></a></li>
-               <li><a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a></li> 
+               <li><a onClick={this.handleGithub} className="button btn github-btn"><i className="fa fa-github"></i>Github</a></li> 
             </ul>
          </div>
       </div>
