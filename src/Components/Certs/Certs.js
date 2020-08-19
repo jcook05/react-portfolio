@@ -53,9 +53,6 @@ function Certs(props) {
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
-            <Button  variant="primary" size="lg" onClick={handleClose}>
-              Save Changes
-            </Button>
           </Modal.Footer>
         </Modal>
 
