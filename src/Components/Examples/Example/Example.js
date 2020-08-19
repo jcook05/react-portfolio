@@ -12,8 +12,8 @@ class Example extends React.Component {
     return (
 
      
-        <div className="section__exampleWrapper" onClick={ (evt) => { this.props.onClick(evt, example) } }>
-          <div className="section__example" >
+        <div className="section__exampleWrapper" >
+          <div className="section__example" onClick={ (evt) => { this.props.onClick(evt, example) } }>
             <img alt={example.image.desc}
               className="section__exampleImage"
               onClick={this.selectWork}
