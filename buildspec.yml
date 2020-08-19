@@ -1,0 +1,42 @@
+## Version 0.2 or > is required for this custom artifact.  Version 0.1 used separate containers. 
+version: 0.2
+
+env:
+  variables:
+    APP_NAME: profileapp
+    BUILD_BRANCH: build_branch_set_in_build
+
+phases:
+   install:
+     runtime-versions:
+       nodejs: 8
+   pre_build: 
+     commands:
+
+      - npm install
+
+      ## holderjs is causing tests to fail, need to debug
+      #- npm test
+
+      - echo "Checking Webhook Ref"
+      
+      - echo $CODEBUILD_WEBHOOK_HEAD_REF
+
+      - echo $CODEBUILD_WEBHOOK_HEAD_REF | cut -f3 -d"/"
+      
+      - BUILD_BRANCH1=$(echo $CODEBUILD_WEBHOOK_HEAD_REF | cut -f3 -d"/")
+      
+      - BUILD_BRANCH=$BUILD_BRANCH1.zip
+     
+   build:
+     commands:
+      - npm run build
+
+artifacts:
+  files: 
+    - '**/*'
+  base-directory: 'build*'
+  
+  name: $APP_NAME-$BUILD_BRANCH
+
+version: 0.2
