@@ -66,8 +66,7 @@ export default
                 {
                     title: "AWS Python",
                     key: "aws",
-                    desc: "Python function libraries leveraging boto2 and boto3 for AWS automation.  Libraries would be maintained and reused throughout the DevOps team. Reusing libraries \
-                    ensures consistency within a team, increases efficiency and decreases cost."  ,
+                    desc: "Python function libraries leveraging boto2 and boto3 for AWS automation.  Libraries would be maintained and reused throughout the DevOps team. Reusing libraries ensures consistency within a team, increases efficiency and decreases cost."  ,
                     href: "../codesample.html",
                     gdesc: "Github contains code for demonstration purposes not actual client deliverables.",
                     github: "https://github.com/jcook05/aws",

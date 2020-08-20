@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, Jumbotron }  from 'react-bootstrap';
 import './ExampleWork.css'
 import CodeSample from '../CodeSample/CodeSample'
 
@@ -14,8 +13,7 @@ class ExampleWorkModal extends React.Component {
     }
 
     componentDidMount(props){
-      //console.log(this.props)
-      //console.log("example",this.props.location.state.example)
+      
       this.setState({currentExample: this.props.location.state.example})
       
     };

@@ -7,7 +7,6 @@ class Example extends React.Component {
   render() {
 
     let example = this.props.example;
-    let workimage = "images/IMG_0111.JPG"
    
     return (
 

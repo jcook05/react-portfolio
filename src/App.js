@@ -4,7 +4,6 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import data from './data/resumeData.json';
 import sampledata from './data/data';
-import Portfolio from './Components/Portfolio';
 import Examples from './Components/Examples/Examples';
 import ExampleWork from './Components/Examples/ExampleWork/ExampleWork';
 import NavBar from './Components/NavBar/NavBar';
@@ -15,11 +14,6 @@ class App extends Component {
    state = {
      selectedExample: ""
    }
-
-componentDidMount(props){
- console.log("mounted")
- 
- }
 
  selectWork = (example) => {
 

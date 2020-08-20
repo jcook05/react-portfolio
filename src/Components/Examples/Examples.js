@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Examples.css';
 import Example from './Example/Example';
 import { Redirect } from 'react-router-dom';
-import ParticlesBg  from "particles-bg";
 
 
 class Examples extends Component {
