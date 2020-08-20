@@ -1,5 +1,7 @@
 # Portfolio     
 
+## JBC Portfolio
+
 # About [`particles-bg`](https://github.com/lindelof/particles-bg) library
 #### This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg). It's very simple. Anyone can be a Musketeer with it.
 
@@ -17,7 +19,7 @@ npm i
 npm start
 ```
 
-### 3. BUild
+### 3. Build
 ```shell
 npm run build
 ```
