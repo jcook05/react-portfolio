@@ -615,6 +615,32 @@ input[type="checkbox"] { display: inline; }
     clear: both;
 }
 
+.row-work {
+   width: 96%;
+   max-width: 1020px;
+   margin: 0 auto;
+   padding-top: 30px;
+   position: "absolute";
+    left: "50%";
+     
+}
+/* fixed width for IE8 */
+.ie .row-work { width: 1000px ; }
+
+.narrow .row-work { max-width: 980px; }
+
+.row-work .row-work { width: auto; max-width: none; margin: 0 -20px; }
+
+/* row-work clearing */
+.row-work:before,
+.row-work:after {
+    content: " ";
+    display: table;
+}
+.row-work:after {
+    clear: both;
+}
+
 .column, .columns {
    position: relative;
    padding: 0 20px;
