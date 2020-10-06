@@ -7,7 +7,7 @@ import sampledata from './data/data';
 import Examples from './Components/Examples/Examples';
 import ExampleWork from './Components/Examples/ExampleWork/ExampleWork';
 import NavBar from './Components/NavBar/NavBar';
-import { Route, Redirect } from 'react-router-dom';
+import { Route, Redirect, BrowserRouter } from 'react-router-dom';
 
 class App extends Component {
 
@@ -37,6 +37,7 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar email={data.main.email}></NavBar>
+        <BrowserRouter>
         <Route path="/" 
             exact 
             render={(props) => (<Home data={data.main} {...props} />)} />
@@ -52,7 +53,7 @@ class App extends Component {
             path="/examplework"
             exact 
             render={(props) => (<ExampleWork {...props}/>)} /> 
-    
+      </BrowserRouter>
                 
         {/* <Header data={this.state.resumeData.main}/> */}
         {/* <About data={this.state.resumeData.main}/>
