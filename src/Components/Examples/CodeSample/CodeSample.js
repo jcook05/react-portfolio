@@ -27,7 +27,7 @@ class CodeSample extends React.Component {
 
       console.log(items)
 
-      const TColumn = (props) => <td> 
+      const TColumn = (props) => <td  className="overflow"> 
            <label>{ props.data.title }</label>
            <pre><code>
            { props.data.code }
@@ -36,9 +36,7 @@ class CodeSample extends React.Component {
 
       return (
 
-      
         <div className="CodeSample">
-
           <Accordion defaultActiveKey="1">
             <Card>
               <Card.Header>
@@ -60,8 +58,7 @@ class CodeSample extends React.Component {
                 
                 </Card.Body>
               </Accordion.Collapse>
-            </Card>
-            
+            </Card>   
           </Accordion>
           </div>
       );

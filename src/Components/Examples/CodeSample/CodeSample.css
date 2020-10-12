@@ -1,6 +1,5 @@
 
 .CodeSample section {
-
     font-size: 2.2rem;
     min-height: 6vh;
     position: relative;
@@ -8,7 +7,8 @@
     padding-bottom: 1rem; 
     width: 100%;
     text-align: left;
-    
+    overflow: auto;
+    white-space: nowrap;
   }
   
   .CodeSample p {
@@ -41,8 +41,7 @@
     font-size: 12px;
     line-height: 20px;
     background: #efefef;
-    border: 1px solid #777;
-   
+    border: 1px solid #777; 
   }
   .CodeSample pre code {
     padding: 10px;

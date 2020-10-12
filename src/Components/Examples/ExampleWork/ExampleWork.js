@@ -46,7 +46,7 @@ class ExampleWorkModal extends React.Component {
               </div>
             </section>
             <section>
-            <div className="floatcontainer">
+            <div className="codesample floatcontainer">
                     <h1>Not interested in going to GitHub?  No problem!  See some code samples below.</h1>
                     <br></br>
                     <CodeSample codesample={example.codedata}></CodeSample>
