@@ -25,22 +25,22 @@ function Certs(props) {
           <ul className="certlist" id="certlist" >
 
                 <li>       
-                <a id="certlist" href="https://www.certmetrics.com/amazon/public/badge.aspx?i=4&t=c&d=2019-07-31&ci=AWS00330518" rel="noreferrer noopener" target="_blank"> 
+                <a id="certlist" href="https://www.youracclaim.com/badges/676a4874-862d-48eb-9210-1777626b4a78/public_url" rel="noreferrer noopener" target="_blank"> 
                 <img src={props.data.sap} alt="Solutions Architect Professional" title="SAP: See Digital Badge"/>
                 </a>
                 </li>       
                 <li>          
-                <a id="certlist" href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2017-09-29&ci=AWS00330518" rel="noreferrer noopener" target="_blank">
+                <a id="certlist" href="https://www.youracclaim.com/badges/07778724-8649-4cb6-b681-650a89d5b146/public_url" rel="noreferrer noopener" target="_blank">
                 <img src={props.data.saa} alt="Solutions Architect Associate" title="SAA: See Digital Badge"/>
                 </a>
                 </li>
                 <li>    
-                    <a id="certlist" href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2017-10-27&ci=AWS00330518" rel="noreferrer noopener" target="_blank">
+                    <a id="certlist" href="https://www.youracclaim.com/badges/64ff7cbe-240a-4757-bf7b-5e49415d0f99/public_url" rel="noreferrer noopener" target="_blank">
                     <img src={props.data.dva} alt="Developer Associate" title="DA: See Digital Badge"  />
                     </a>
                 </li>
                 <li>
-                    <a id="certlist" href="https://www.certmetrics.com/amazon/public/badge.aspx?i=3&t=c&d=2017-12-29&ci=AWS00330518" rel="noreferrer noopener" target="_blank">
+                    <a id="certlist" href="https://www.youracclaim.com/badges/189c2525-7e9d-47d4-9938-85e8732b2cd8/public_url" rel="noreferrer noopener" target="_blank">
                     <img src={props.data.csa} alt="System Operations Associate" title="SOA: See Digital Badge"/>
                     </a>
                 </li>      
